@@ -50,8 +50,8 @@ export default class GameOverScene extends Phaser.Scene {
       scoreValueText.x = scoreTextLabel.x + scoreTextLabel.width;
   
     const replayButton = this.add
-      .image(400, 400, "replay")
-      .setScale(0.5); // Set the scale as needed
+      .image(400, 500, "replay")
+      .setScale(2); // Set the scale as needed
 
     replayButton.setInteractive();
 

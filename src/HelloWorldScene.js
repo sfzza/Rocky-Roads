@@ -21,7 +21,7 @@ export default class CollectingStarsScene extends Phaser.Scene {
     this.load.image("star", "image/Objects/coin_gold.png");
     this.load.image("tree", "image/Deco/tree_b.png");
     this.load.image("trunk", "image/Deco/tree_trunk.png");
-    this.load.image("bomb", "image/bomb.png");
+    this.load.image("bomb", "image/Enemies/bullet.png");
     this.load.image("sky", "image/Tilesets/sky.png");
     this.load.image("mountains", "image/Backgrounds/mountains_a.png");
     this.load.spritesheet("dude", "image/dude.png", {
