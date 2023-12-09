@@ -32,7 +32,7 @@ export default class WinScene extends Phaser.Scene {
 
     // Display the win message
     const winText = this.add
-      .text(400, 200, "Congratulations! You won!", winTextStyle)
+      .text(400, 200, "Congratulations! You won!!", winTextStyle)
       .setOrigin(0.5);
 
     // Create the SCORE: text
